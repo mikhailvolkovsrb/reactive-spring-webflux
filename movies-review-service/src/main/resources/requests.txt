@@ -1,0 +1,6 @@
+POST    http://localhost:8081/v1/reviews    {"reviewId":1, "movieInfoId":1, "comment": "Excellent Movie", "rating":8.0}
+POST    http://localhost:8081/v1/reviews    {"reviewId":2, "movieInfoId":2, "comment": "Excellent Movie", "rating":8.0}
+
+POST    http://localhost:8081/v1/reviews    {"reviewId":null, "movieInfoId":3, "comment": "Excellent Movie", "rating":8.0}
+
+GET http://localhost:8081/v1/reviews
